@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Alicia Suciadi's design portfolio showcasing skills, education, and creative work. Based in Jakarta, Indonesia."
+    />
+    <meta
+      name="keywords"
+      content="Alicia Suciadi, design portfolio, visual communication design, branding, graphic design, university student"
+    />
+    <meta name="author" content="Alicia Suciadi" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Alicia Suciadi's Design Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore Alicia Suciadi's portfolio, a third-year university student specializing in visual communication design, branding, and more."
+    />
+    <meta
+      property="og:image"
+      content="https://www.yourwebsite.com/assets/Kratz.jpg"
+    />
+    <meta property="og:url" content="https://www.yourwebsite.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Alicia Suciadi Portfolio" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Alicia Suciadi's Design Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Explore Alicia Suciadi's portfolio, showcasing work in visual communication design, branding, and graphic design."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.yourwebsite.com/assets/Kratz.jpg"
+    />
+    <meta name="twitter:url" content="https://www.yourwebsite.com" />
+
+    <title>Portfolio</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- Inline Styles -->
+    <style>
+      .playfair {
+        font-family: "Playfair Display", serif;
+      }
+      .great-vibes {
+        font-family: "Great Vibes", cursive;
+      }
+    </style>
+
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  </head>
+
+  <body class="bg-white text-black">
+    <script>
+      AOS.init({
+        duration: 1000, // Animation duration
+        once: true, // Animation will only run once
+      });
+    </script>
+
+    <!-- Home Section -->
+    <section
+      class="flex flex-col items-center justify-center min-h-screen bg-white"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <!-- Center Content -->
+      <div class="text-center" data-aos="fade-in" data-aos-duration="1000">
+        <h1
+          class="playfair text-5xl md:text-7xl hover:scale-105 transition-all duration-200"
+        >
+          welcome to my
+        </h1>
+        <h2
+          class="great-vibes text-6xl md:text-8xl relative inline-block hover:scale-105 transition-all duration-200"
+        >
+          portfoli<span class="relative"
+            >o
+            <span class="absolute text-xs md:text-sm -right-5 top-1 md:top-2"
+              >2023</span
+            >
+          </span>
+        </h2>
+        <p class="mt-4 text-sm md:text-base">( DESIGNER )</p>
+      </div>
+
+      <!-- Side Content -->
+      <div class="flex justify-between w-full px-8 mt-12 text-xs md:text-sm">
+        <!-- Left Section -->
+        <div
+          class="text-left space-y-4"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <p class="hover:text-blue-500 transition-all duration-200">
+            DESIGN<br />PORTFOLIO
+          </p>
+          <p class="hover:text-blue-500 transition-all duration-200">
+            ALICIA SUCIADI<br />ALICIASUCIADI@GMAIL.COM
+          </p>
+        </div>
+
+        <!-- Right Section -->
+        <div
+          class="text-right space-y-4"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <p class="hover:text-blue-500 transition-all duration-200">
+            UNIVERSITY.NET<br />/ALICIA
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="bg-gray-100 py-16">
+      <div class="max-w-6xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- Profile Section -->
+        <div>
+          <div class="text-left border-b border-gray-400 pb-4">
+            <h1 class="text-2xl uppercase playfair" data-aos="fade-in">
+              Introduction
+            </h1>
+          </div>
+          <div class="flex items-center mt-8">
+            <img
+              src="./assets/Kratz.jpg"
+              alt="Profile"
+              class="w-40 h-40 rounded-full border-2 border-gray-300"
+            />
+            <div class="ml-8" data-aos="fade-up">
+              <h2 class="text-xl font-bold playfair">Alicia Suciadi</h2>
+              <p class="text-sm mt-2">Jakarta, Indonesia</p>
+              <p class="text-sm">September 24th, 2001</p>
+              <p class="text-sm">aliciasuciadi@gmail.com</p>
+              <p class="text-sm">@aliciasuciadi</p>
+            </div>
+          </div>
+          <p class="mt-8 text-justify leading-relaxed">
+            I am currently a 3rd-year university student majoring in Visual
+            Communication Design at Multimedia Nusantara University. I deeply
+            admire the importance of design in communicating messages and aspire
+            to explore more in the field of design, especially branding.
+          </p>
+          <p class="mt-4 text-justify leading-relaxed">
+            I am keen on constantly developing my skills, becoming a proficient
+            designer, and looking forward to working towards creating innovative
+            branding solutions.
+          </p>
+        </div>
+        <!-- Skills and Education Section -->
+        <div>
+          <div class="text-left border-b border-gray-400 pb-4">
+            <h1 class="text-2xl uppercase playfair" data-aos="fade-in">
+              Skills
+            </h1>
+          </div>
+          <div class="mt-8 grid grid-cols-2 gap-4">
+            <div>
+              <h3 class="text-lg font-bold playfair">Hard Skills</h3>
+              <ul class="mt-4 space-y-2">
+                <li>Typography & Color</li>
+                <li>Icons & Illustrations</li>
+                <li>Brand Guidelines</li>
+                <li>Presentation Design</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold playfair">Soft Skills</h3>
+              <ul class="mt-4 space-y-2">
+                <li>Communication</li>
+                <li>Critical Thinking</li>
+                <li>Team Working</li>
+                <li>Time Management</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-12">
+            <div class="text-left border-b border-gray-400 pb-4">
+              <h1 class="text-2xl uppercase playfair" data-aos="fade-in">
+                Education
+              </h1>
+            </div>
+            <ul class="mt-8 space-y-4" data-aos="fade-up">
+              <li>
+                <h3 class="text-lg font-bold">
+                  Multimedia Nusantara University
+                </h3>
+                <p class="text-sm">
+                  Bachelor's Degree in Visual Communication Design
+                </p>
+                <p class="text-sm">Now</p>
+              </li>
+              <li>
+                <h3 class="text-lg font-bold">Don Bosco 2 High School</h3>
+                <p class="text-sm">Science program</p>
+                <p class="text-sm">2019</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contents Section -->
+    <section class="bg-gray-100 flex items-center justify-center min-h-screen">
+      <div
+        class="bg-white shadow-xl w-full max-w-6xl flex flex-col md:flex-row"
+      >
+        <div
+          class="w-full md:w-1/3 flex items-center justify-center bg-black text-white p-4"
+        >
+          <h1
+            class="playfair text-5xl md:text-7xl transform -rotate-90 hover:scale-110 transition-transform duration-300 hover:cursor-pointer slide-in-right"
+          >
+            Contents
+          </h1>
+        </div>
+        <div class="w-full md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-8 p-8">
+          <div class="flex flex-col slide-in-bottom delay-100">
+            <span class="text-gray-400 text-lg md:text-xl playfair">04.</span>
+            <a
+              href="https://www.example.com/"
+              class="text-2xl md:text-3xl font-bold playfair hover:text-black hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
+              >Protaras</a
+            >
+            <span class="text-gray-400 text-lg">–2011</span>
+          </div>
+          <div class="flex flex-col slide-in-bottom delay-200">
+            <span class="text-gray-400 text-lg md:text-xl playfair">12.</span>
+            <a
+              href="https://www.example.com/"
+              class="text-2xl md:text-3xl font-bold playfair hover:text-black hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
+              >New York</a
+            >
+            <span class="text-gray-400 text-lg">–2012</span>
+          </div>
+          <div class="flex flex-col slide-in-bottom delay-300">
+            <span class="text-gray-400 text-lg md:text-xl playfair">20.</span>
+            <a
+              href="https://www.example.com/"
+              class="text-2xl md:text-3xl font-bold playfair hover:text-black hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
+              >Orlando</a
+            >
+            <span class="text-gray-400 text-lg">–2013</span>
+          </div>
+          <div class="flex flex-col slide-in-bottom delay-400">
+            <span class="text-gray-400 text-lg md:text-xl playfair">28.</span>
+            <a
+              href="https://www.example.com/"
+              class="text-2xl md:text-3xl font-bold playfair hover:text-black hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
+              >Marmaris</a
+            >
+            <span class="text-gray-400 text-lg">–2014</span>
+          </div>
+          <div class="flex flex-col slide-in-bottom delay-500">
+            <span class="text-gray-400 text-lg md:text-xl playfair">36.</span>
+            <a
+              href="https://www.example.com/"
+              class="text-2xl md:text-3xl font-bold playfair hover:text-black hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
+              >California</a
+            >
+            <span class="text-gray-400 text-lg">–2015</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact and Footer Section -->
+    <section
+      class="flex flex-col justify-between min-h-screen bg-gray-100 p-8"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <div
+        class="flex justify-between items-start"
+        data-aos="fade-in"
+        data-aos-duration="1000"
+      >
+        <div class="text-left">
+          <h1 class="playfair text-5xl md:text-7xl">CON-<br />TACTS</h1>
+          <p class="text-gray-500 text-xl mt-4 playfair">45.</p>
+        </div>
+        <div class="text-right">
+          <p class="playfair text-md md:text-lg">
+            DESIGN JOURNEY <i class="fas fa-square"></i>
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="flex justify-between items-center mt-16"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div>
+          <p class="text-xl font-bold playfair">EMAIL:</p>
+          <p class="text-xl playfair">
+            <a
+              href="mailto:aliciasuciadi@gmail.com"
+              class="text-black no-underline hover:text-gray-700 hover:underline transition-all duration-200"
+              >aliciasuciadi@gmail.com</a
+            >
+          </p>
+          <p class="text-xl font-bold mt-8 playfair">PHONE:</p>
+          <p class="text-xl playfair">
+            <a
+              href="tel:+622112345678"
+              class="text-black no-underline hover:text-gray-700 hover:underline transition-all duration-200"
+              >+622112345678</a
+            >
+          </p>
+        </div>
+
+        <div class="text-right">
+          <p
+            class="playfair text-2xl font-bold hover:scale-105 transition-all duration-200"
+          >
+            <i class="fas fa-square"></i> THANK YOU
+          </p>
+        </div>
+      </div>
+
+      <footer
+        class="flex justify-between items-end mt-16"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <p class="text-gray-500 text-xl playfair">45.</p>
+        <p class="text-gray-500 text-xl playfair">46.</p>
+      </footer>
+    </section>
+
+    <script>
+      // Initialize AOS library
+      AOS.init({
+        duration: 1000, // Animation duration in milliseconds
+        once: true, // Animation runs only once
+      });
+    </script>
+  </body>
+</html>
