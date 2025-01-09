@@ -84,19 +84,50 @@
 
     <!-- Home Section -->
     <section
-      class="flex flex-col items-center justify-center min-h-screen bg-white"
+      id="home"
+      class="flex flex-col items-center justify-center min-h-screen bg-white relative"
       data-aos="fade-up"
       data-aos-duration="1000"
     >
+      <!-- Navigation Links at the Top -->
+      <nav
+        class="absolute top-6 flex space-x-8 text-lg uppercase text-gray-700"
+        data-aos="fade-in"
+        data-aos-duration="1500"
+      >
+        <a
+          href="#about"
+          class="hover:text-red-400 hover:scale-105 transition duration-300"
+        >
+          About
+        </a>
+        <a
+          href="#content"
+          class="hover:text-red-400 hover:scale-105 transition duration-300"
+        >
+          Content
+        </a>
+        <a
+          href="#contact"
+          class="hover:text-red-400 hover:scale-105 transition duration-300"
+        >
+          Contact
+        </a>
+      </nav>
+
       <!-- Center Content -->
-      <div class="text-center" data-aos="fade-in" data-aos-duration="1000">
+      <div
+        class="text-center mt-16"
+        data-aos="fade-in"
+        data-aos-duration="1000"
+      >
         <h1
           class="playfair text-5xl md:text-7xl hover:scale-105 transition-all duration-200"
         >
           welcome to my
         </h1>
         <h2
-          class="great-vibes text-6xl md:text-8xl relative inline-block hover:scale-105 transition-all duration-200"
+          class="great-vibes text-6xl md:text-8xl relative inline-block hover:scale-105 transition-all duration-200 text-red-500"
         >
           portfoli<span class="relative"
             >o
@@ -105,6 +136,7 @@
             >
           </span>
         </h2>
+
         <p class="mt-4 text-sm md:text-base">( DESIGNER )</p>
       </div>
 
@@ -116,10 +148,10 @@
           data-aos="fade-left"
           data-aos-duration="1000"
         >
-          <p class="hover:text-blue-500 transition-all duration-200">
+          <p class="hover:text-red-500 transition-all duration-200">
             DESIGN<br />PORTFOLIO
           </p>
-          <p class="hover:text-blue-500 transition-all duration-200">
+          <p class="hover:text-red-500 transition-all duration-200">
             ALICIA SUCIADI<br />ALICIASUCIADI@GMAIL.COM
           </p>
         </div>
@@ -130,7 +162,7 @@
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <p class="hover:text-blue-500 transition-all duration-200">
+          <p class="hover:text-red-500 transition-all duration-200">
             UNIVERSITY.NET<br />/ALICIA
           </p>
         </div>
@@ -138,7 +170,7 @@
     </section>
 
     <!-- Introduction Section -->
-    <section class="bg-gray-100 py-16">
+    <section id="about" class="bg-gray-100 py-16">
       <div class="max-w-6xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
         <!-- Profile Section -->
         <div>
@@ -154,7 +186,9 @@
               class="w-40 h-40 rounded-full border-2 border-gray-300"
             />
             <div class="ml-8" data-aos="fade-up">
-              <h2 class="text-xl font-bold playfair">Alicia Suciadi</h2>
+              <h2 class="text-xl font-bold playfair text-red-500">
+                Alicia Suciadi
+              </h2>
               <p class="text-sm mt-2">Jakarta, Indonesia</p>
               <p class="text-sm">September 24th, 2001</p>
               <p class="text-sm">aliciasuciadi@gmail.com</p>
@@ -209,7 +243,7 @@
             </div>
             <ul class="mt-8 space-y-4" data-aos="fade-up">
               <li>
-                <h3 class="text-lg font-bold">
+                <h3 class="text-lg font-bold text-red-500">
                   Multimedia Nusantara University
                 </h3>
                 <p class="text-sm">
@@ -218,7 +252,9 @@
                 <p class="text-sm">Now</p>
               </li>
               <li>
-                <h3 class="text-lg font-bold">Don Bosco 2 High School</h3>
+                <h3 class="text-lg font-bold text-red-500">
+                  Don Bosco 2 High School
+                </h3>
                 <p class="text-sm">Science program</p>
                 <p class="text-sm">2019</p>
               </li>
@@ -229,7 +265,10 @@
     </section>
 
     <!-- Contents Section -->
-    <section class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <section
+      id="content"
+      class="bg-gray-100 flex items-center justify-center min-h-screen"
+    >
       <div
         class="bg-white shadow-xl w-full max-w-6xl flex flex-col md:flex-row"
       >
@@ -247,45 +286,50 @@
             <span class="text-gray-400 text-lg md:text-xl playfair">04.</span>
             <a
               href="https://www.example.com/"
-              class="text-2xl md:text-3xl font-bold playfair hover:text-black hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
-              >Protaras</a
+              class="text-2xl md:text-3xl font-bold playfair hover:text-red-500 hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
             >
+              Protaras
+            </a>
             <span class="text-gray-400 text-lg">–2011</span>
           </div>
           <div class="flex flex-col slide-in-bottom delay-200">
             <span class="text-gray-400 text-lg md:text-xl playfair">12.</span>
             <a
               href="https://www.example.com/"
-              class="text-2xl md:text-3xl font-bold playfair hover:text-black hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
-              >New York</a
+              class="text-2xl md:text-3xl font-bold playfair hover:text-red-500 hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
             >
+              New York
+            </a>
             <span class="text-gray-400 text-lg">–2012</span>
           </div>
           <div class="flex flex-col slide-in-bottom delay-300">
             <span class="text-gray-400 text-lg md:text-xl playfair">20.</span>
             <a
               href="https://www.example.com/"
-              class="text-2xl md:text-3xl font-bold playfair hover:text-black hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
-              >Orlando</a
+              class="text-2xl md:text-3xl font-bold playfair hover:text-red-500 hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
             >
+              Orlando
+            </a>
             <span class="text-gray-400 text-lg">–2013</span>
           </div>
           <div class="flex flex-col slide-in-bottom delay-400">
             <span class="text-gray-400 text-lg md:text-xl playfair">28.</span>
             <a
               href="https://www.example.com/"
-              class="text-2xl md:text-3xl font-bold playfair hover:text-black hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
-              >Marmaris</a
+              class="text-2xl md:text-3xl font-bold playfair hover:text-red-500 hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
             >
+              Marmaris
+            </a>
             <span class="text-gray-400 text-lg">–2014</span>
           </div>
           <div class="flex flex-col slide-in-bottom delay-500">
             <span class="text-gray-400 text-lg md:text-xl playfair">36.</span>
             <a
               href="https://www.example.com/"
-              class="text-2xl md:text-3xl font-bold playfair hover:text-black hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
-              >California</a
+              class="text-2xl md:text-3xl font-bold playfair hover:text-red-500 hover:text-lg transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
             >
+              California
+            </a>
             <span class="text-gray-400 text-lg">–2015</span>
           </div>
         </div>
@@ -294,6 +338,7 @@
 
     <!-- Contact and Footer Section -->
     <section
+      id="contact"
       class="flex flex-col justify-between min-h-screen bg-gray-100 p-8"
       data-aos="fade-up"
       data-aos-duration="1000"
@@ -304,12 +349,15 @@
         data-aos-duration="1000"
       >
         <div class="text-left">
-          <h1 class="playfair text-5xl md:text-7xl">CON-<br />TACTS</h1>
-          <p class="text-gray-500 text-xl mt-4 playfair">45.</p>
+          <h1 class="playfair text-5xl md:text-7xl">
+            CON<span class="text-red-500">-</span><br />TACTS
+          </h1>
+
+          <p class="text-gray-400 text-xl mt-4 playfair">45.</p>
         </div>
         <div class="text-right">
           <p class="playfair text-md md:text-lg">
-            DESIGN JOURNEY <i class="fas fa-square"></i>
+            DESIGN JOURNEY <i class="fas fa-square text-red-500"></i>
           </p>
         </div>
       </div>
@@ -324,7 +372,7 @@
           <p class="text-xl playfair">
             <a
               href="mailto:aliciasuciadi@gmail.com"
-              class="text-black no-underline hover:text-gray-700 hover:underline transition-all duration-200"
+              class="text-black no-underline hover:text-red-500 transition-all duration-200"
               >aliciasuciadi@gmail.com</a
             >
           </p>
@@ -332,7 +380,7 @@
           <p class="text-xl playfair">
             <a
               href="tel:+622112345678"
-              class="text-black no-underline hover:text-gray-700 hover:underline transition-all duration-200"
+              class="text-black no-underline hover:text-red-500 transition-all duration-200"
               >+622112345678</a
             >
           </p>
@@ -342,7 +390,7 @@
           <p
             class="playfair text-2xl font-bold hover:scale-105 transition-all duration-200"
           >
-            <i class="fas fa-square"></i> THANK YOU
+            <i class="fas fa-square text-red-500"></i> THANK YOU
           </p>
         </div>
       </div>
@@ -352,8 +400,8 @@
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <p class="text-gray-500 text-xl playfair">45.</p>
-        <p class="text-gray-500 text-xl playfair">46.</p>
+        <p class="text-gray-400 text-xl playfair">45.</p>
+        <p class="text-gray-400 text-xl playfair">46.</p>
       </footer>
     </section>
 
